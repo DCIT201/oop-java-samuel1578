@@ -1,0 +1,62 @@
+{
+    "vehicles": [
+      {
+        "licensePlate": "ABC123",
+        "brand": "Toyota",
+        "model": "Corolla",
+        "rentalPrice": 50.0,
+        "type": "Car",
+        "numberOfDoors": 4
+      },
+      {
+        "licensePlate": "XYZ789",
+        "brand": "Honda",
+        "model": "Civic",
+        "rentalPrice": 60.0,
+        "type": "Car",
+        "numberOfDoors": 4
+      },
+      {
+        "licensePlate": "LMN456",
+        "brand": "Harley-Davidson",
+        "model": "Sportster",
+        "rentalPrice": 30.0,
+        "type": "Motorcycle",
+        "hasSidecar": false
+      },
+      {
+        "licensePlate": "TRK001",
+        "brand": "Ford",
+        "model": "F-150",
+        "rentalPrice": 80.0,
+        "type": "Truck",
+        "loadCapacity": 1000.0
+      }
+    ],
+    "customers": [
+      {
+        "name": "John Doe",
+        "licenseNumber": "D123456"
+      },
+      {
+        "name": "Jane Smith",
+        "licenseNumber": "D654321"
+      }
+    ],
+    "rentalTransactions": [
+      {
+        "customerName": "John Doe",
+        "licenseNumber": "D123456",
+        "vehicleLicensePlate": "ABC123",
+        "rentalDate": "2023-10-01",
+        "returnDate": "2023-10-05"
+      },
+      {
+        "customerName": "Jane Smith",
+        "licenseNumber": "D654321",
+        "vehicleLicensePlate": "LMN456",
+        "rentalDate": "2023-10-02",
+        "returnDate": "2023-10-03"
+      }
+    ]
+  }
